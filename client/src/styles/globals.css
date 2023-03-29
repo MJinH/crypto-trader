@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+background: repeating-linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.coinbase-img {
+  filter: hue-rotate(90deg);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+@media (max-width: 700px) {
+
+  main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: flex;
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .sidebar .coin-img {
+    display: none;
+  }
+
+  .sidebar .link {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    margin-top: 0;
+    padding: 1rem 0 1rem 0;
+    justify-content: space-around;
+  }
+
+  .link div {
+    padding: 0;
+  }
+
+  .link .link-icon {
+    height: auto;
+  }
+
+  .wrapper {
+    overflow-y: scroll;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .link-inner {
+    font-size: 1rem;
+  }
+
+  .link-icon {
+    width: 0.88rem;
+    height: 0.88rem;
+    margin-right: 0.5rem;
+  }
+
+  .wrapper {
+    margin: 0;
+    width: 100%;
+    padding-top: 1.88rem;
+    overflow-y: scroll;
+  }
+
+  .asset-info {
+    font-size: 0.7rem;
+  }
+
+  .modal {
+    width: 80%;
+  }
+
+  .trade-info {
+    font-size: 0.7rem;
+  }
+
+  .trade-inner {
+    font-size: 0.7rem;
+  }
+
+  .trade-img {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+
+  .trade-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1440px) {
+   
+  main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: flex;
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .sidebar .coin-img {
+    display: none;
+  }
+
+  .sidebar .link {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    margin-top: 0;
+    padding: 1rem 0 1rem 0;
+    justify-content: space-around;
+  }
+
+  .link div {
+    padding: 0;
+  }
+
+  .link .link-icon {
+    height: auto;
+  }
+
+  .wrapper {
+    overflow-y: scroll;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .modal {
+    width: 40%;
+  }
+
+}

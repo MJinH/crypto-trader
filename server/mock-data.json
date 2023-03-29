@@ -1,0 +1,81 @@
+{
+  "balance": {
+    "cash": 10000,
+    "coins": []
+  },
+  "transactions": [],
+  "coins": [
+    {
+        "id": "1",
+        "name": "BTC",
+        "logo": "btcLogo",
+        "balanceUsd": 26985.79,
+        "volume": "17.6K BTC",
+        "change": -3.47,
+        "status": false
+    },
+    {
+        "id": "2",
+        "name": "ETH",
+        "logo": "ethLogo",
+        "balanceUsd": 1715.20,
+        "volume": "127.2K ETH",
+        "change": -3.05,
+        "status": false
+    },
+    {
+        "id": "3",
+        "name": "USDT",
+        "logo": "usdtLogo",
+        "balanceUsd": 1.000029,
+        "volume": "127.2M USDT",
+        "change": -0.06,
+        "status": false
+    },
+    {
+        "id": "4",
+        "name": "MATIC",
+        "logo": "maticLogo",
+        "balanceUsd": 1.0422,
+        "volume": "26.2M MATIC",
+        "change": -4.97,
+        "status": false
+    },
+    {
+        "id": "5",
+        "name": "SOL",
+        "logo": "solLogo",
+        "balanceUsd": 19.78,
+        "volume": "1.2M SOL",
+        "change": 4.97,
+        "status": false
+    },
+    {
+        "id": "6",
+        "name": "LTC",
+        "logo": "ltcLogo",
+        "balanceUsd": 86.37,
+        "volume": "260.8K LTC",
+        "change": -6.65,
+        "status": false
+    },
+    {
+        "id": "7",
+        "name": "DOGE",
+        "logo": "dogeLogo",
+        "balanceUsd": 0.0726,
+        "volume": "244.5M DOGE",
+        "change": 2.23,
+        "status": false
+    },
+    {
+        "id": "8",
+        "name": "SHIB",
+        "logo": "shibLogo",
+        "balanceUsd": 0.0000013,
+        "volume": "1.6T SHIB",
+        "change": 2.23,
+        "status": false
+    }
+  ] 
+}
